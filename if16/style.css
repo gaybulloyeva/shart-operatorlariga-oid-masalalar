@@ -1,0 +1,34 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 60px auto;
+    flex-direction: column;
+}
+
+h1 {
+    text-align: center;
+}
+
+#demo {
+    margin-top: 30px;
+    font-weight: 500;
+    color: cadetblue;
+    font-size: 20px;
+}
+
+
+button {
+    margin-top: 20px;
+    width: 200px;
+    height: 40px;
+    font-weight: 700;
+    border-radius: 20px;
+    background-color: white;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+button:hover {
+    box-shadow: 0 5px 5px 1px rgb(213, 210, 210);
+}
